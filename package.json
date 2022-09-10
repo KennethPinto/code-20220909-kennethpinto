@@ -4,6 +4,7 @@
   "description": "BMI Calculator",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,12 +13,16 @@
   },
   "keywords": [
     "BMI",
-    "Calculator"
+    "Calculator",
+    "BMICalculator"
   ],
   "author": "Kenneth Antony Pinto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KennethPinto/code-20220909-kennethpinto/issues"
   },
-  "homepage": "https://github.com/KennethPinto/code-20220909-kennethpinto#readme"
+  "homepage": "https://github.com/KennethPinto/code-20220909-kennethpinto#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
