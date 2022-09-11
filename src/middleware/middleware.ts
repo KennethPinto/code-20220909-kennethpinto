@@ -27,6 +27,10 @@ class App {
         });
         
         this.express.use('/', Routes);
+
+        this.express.use('*', (req, res, next) => { 
+            res.send("Make sure the URL is correct!"); 
+        });
     }
 }
 
